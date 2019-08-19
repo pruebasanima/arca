@@ -1,0 +1,29 @@
+/*---------portada--------*/
+.wrap_portada {
+  text-align: center;
+  padding: 170px 0px;
+}
+
+.title_portada {
+  color: #0C4C76;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img_portada {
+  width: 20%;
+  margin: 22px 0px;
+}
+.btn_empezar {
+  background-color: #004a74;
+  color: white;
+  border: 0px;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 4px 40px;
+}
+
+.btn_empezar:hover {
+  color: white;
+}
+/* \ portada*/

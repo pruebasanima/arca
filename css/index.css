@@ -1,0 +1,240 @@
+/*GLOBAL STYKES*/
+* { 
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.ocultar {
+  display: none;
+}
+
+/*----SIDEBAR MENU LEFT-----*/
+.div_menu_logo {
+  text-align: center;
+}
+
+#logo_menu_arca {
+  width: 100%;
+}
+
+.wrap_menuList_button_text {
+  background-color: #e2e6e9;
+}
+
+.wrap_menuList_button_text button {
+  text-align: center;
+}
+
+.menu_list {
+  margin-top: 35px;
+}
+
+.menu_list a{
+  border: 0px;
+  background-color: #e2e6e9;  
+  color: #004a74;
+}
+
+.menu_list a:hover {
+  color: #004a74;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.menu_list a:hover span{
+  color: white;
+  font-weight: bold;
+  border: 2px solid #004a74;
+  background-color: #004a74;
+}
+
+.menu_numbers {
+  border: 2px solid #004a74;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 0px 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #004a74;
+}
+
+.wrap_button_text {
+  text-align: center;
+}
+
+.btn_colabora {
+  background-color: #004a74;
+  color: white;
+  border: 0px;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 1px 22px;
+  margin-top: 20px;
+  margin: 30px 0px;
+}
+
+.btn_colabora:hover {
+  color: white;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+.text_menu_left {
+  text-align: left;
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 16px;
+  color: #004a74;
+  padding: 0px 20px 40px;
+}
+/*----MAIN CONTENT-----*/
+.main-content {
+  margin-left: 16.8%;
+  margin-right: 8.5%;
+  text-align: center;
+}
+
+.img_galery {
+  width: 90%;
+}
+
+.area_hover_front_house:hover {
+	opacity: 0.5;
+}
+
+.thermometer_img {
+	width: 100%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/*----SIDEBAR MENU RIGHT-----*/
+#right-sidebar {
+  left: auto;
+}
+
+.div_percentage {
+  margin-top: 230%;
+}
+
+/*____________________________SECTIONS_______________________*/
+/*-------first section (SVG IMAGE)------*/
+.capa_interactiva {
+  fill: #FFFFFF;
+}
+
+.circle {
+  fill: #0C4C76;
+}
+
+.circle:hover, .capa_interactiva:hover {
+  cursor: pointer;
+}
+
+.text_infomation_svgImg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  color: #0C4C76;
+  font-size: 18px;
+}
+
+.text_infomation_svgImg span{
+  border: 1px solid #0C4C76;
+  border-radius: 50%;
+  color: #0C4C76;
+  background-color: #0C4C76;
+  padding: 0px 8px;
+  margin: 0px 10px;
+}
+/* \ first section*/
+
+/*-------fifth section-------*/
+.wrap_fifth_section {
+  text-align: center;
+  background-image: url("../img/Logo_simple.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 300px 0px;
+}
+
+.title_fifth_section {
+  color: #0C4C76;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;  
+}
+
+.text_fifth_section {
+  text-align: left;
+}
+/* \ fifth section*/
+.lineSVG {
+  stroke: #0C4C76;
+  stroke-width: 5;
+}
+
+.textSVG {
+  font-size: 36px;
+  color: #000;
+}
+/*_________________________END SECTIONS________________________*/
+
+/*-----FOOTER-----*/
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0C4C76;
+  color: white;
+  text-align: center;
+}
+
+.footer_text {
+  display: inline-flex;
+  list-style: none;
+  margin: 5px 0px;
+  padding-right: 0px;
+}
+
+.footer_text a {
+  text-decoration: none;
+  color: white;
+}
+
+.separator_footer{
+  margin: 0px 12px;
+}
+
+.icon_footer {
+  width: 20px;
+  margin: 0px 2px;
+}
+
+/*----MEDIA QUERYS----*/
+@media (min-width: 1250px) {
+  .div_nav {
+    flex: 0 0 15.667%;
+    max-width: 15.667%;
+  }
+
+  .main-content {
+    margin-left: 14.8%;
+  }
+}
+
+@media (min-width: 1900px) {
+  .div_nav {
+    flex: 0 0 10.667%;
+    max-width: 10.667%;
+  }
+
+  .main-content {
+    margin-left: 9.8%;
+  }
+}
