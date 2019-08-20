@@ -133,6 +133,7 @@
 
 .circle:hover, .capa_interactiva:hover {
   cursor: pointer;
+  cursor: hand;
 }
 
 .text_infomation_svgImg {
