@@ -98,6 +98,7 @@
 
 .img_galery {
   width: 90%;
+  margin: 60px 0px 0px 0px; 
 }
 
 .area_hover_front_house:hover {
@@ -122,12 +123,12 @@
 
 /*____________________________SECTIONS_______________________*/
 /*-------first section (SVG IMAGE)------*/
-.capa_interactiva {
-  fill: #FFFFFF;
+#svg_all {
+  margin: 60px 0px 0px 0px;
 }
 
-.circle {
-  fill: #0C4C76;
+.capa_interactiva {
+  fill: #ffffff;
 }
 
 .circle:hover, .capa_interactiva:hover {
