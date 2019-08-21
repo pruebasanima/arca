@@ -63,7 +63,7 @@
 }
 
 .btn_colabora {
-  background-color: #004a74;
+  background-color: #8B0058;
   color: white;
   border: 0px;
   border-radius: 15px;
@@ -98,7 +98,17 @@
 
 .img_galery {
   width: 90%;
-  margin: 60px 0px 0px 0px; 
+  margin: 110px 0px;
+}
+
+.first_img_text{
+  position: absolute;
+  text-align: right;
+  top: 16%;
+  letter-spacing: 0px;
+  padding: 0px 34% 0px 50.3%;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .area_hover_front_house:hover {
@@ -124,7 +134,7 @@
 /*____________________________SECTIONS_______________________*/
 /*-------first section (SVG IMAGE)------*/
 #svg_all {
-  margin: 60px 0px 0px 0px;
+  margin: 80px 0px 0px 0px;
 }
 
 .capa_interactiva {
@@ -145,6 +155,10 @@
   font-size: 18px;
 }
 
+.text_infomation_svgImg img {
+  width: 25px;
+}
+
 .text_infomation_svgImg span{
   border: 1px solid #0C4C76;
   border-radius: 50%;
@@ -161,7 +175,7 @@
   background-image: url("../img/Logo_simple.png");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 300px 0px;
+  padding: 150px 0px;
 }
 
 .title_fifth_section {
@@ -217,6 +231,12 @@
   width: 20px;
   margin: 0px 2px;
 }
+
+/* -------MODAL-------- */
+.modal_video {
+  width: auto;
+}
+/* ------- \ MODAL-------- */
 
 /*----MEDIA QUERYS----*/
 @media (min-width: 1250px) {

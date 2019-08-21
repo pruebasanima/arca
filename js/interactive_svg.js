@@ -19,17 +19,20 @@ $(document).ready(function() {
 	});
 
 	//click dots
-	$('.capa_interactiva').click(function(){
-		click_interactive();
+	$('.capa_interactiva').click(function(e){
+		click_interactive(e);
 	});
 
-	$('.circle').click(function(){
-		click_interactive();
+	$('.circle').click(function(e){
+		click_interactive(e);
 	});
 
 
     //-------------functions--------------
-	function click_interactive() {
-		console.log("click in interactive");
+	function click_interactive(e) {
+		console.log(e.target.id);
+		targetNumber = e.target.id.substr(-1);
+		$('.line_0'+targetNumber).toggleClass("d-none");
+		$('.text_0'+targetNumber).toggleClass("d-none");
 	}
 });

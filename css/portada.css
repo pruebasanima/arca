@@ -1,18 +1,38 @@
+/*---------img portada--------*/
+.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*--------- \ img portada--------*/
 /*---------portada--------*/
 .wrap_portada {
   text-align: center;
-  padding: 170px 0px;
+  padding: 1em;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .title_portada {
-  color: #0C4C76;
-  font-size: 30px;
+  color: white;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .img_portada {
-  width: 20%;
-  margin: 22px 0px;
+  width: 18%;
 }
 .btn_empezar {
   background-color: #004a74;
@@ -21,6 +41,7 @@
   border-radius: 15px;
   font-weight: bold;
   padding: 4px 40px;
+  margin-top: 50px;
 }
 
 .btn_empezar:hover {
