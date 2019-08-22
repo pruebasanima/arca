@@ -383,6 +383,28 @@
   .textSVG {
     font-size: 4vw;
   }
+
+  .text_menu_left {
+    text-align: left;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #004a74;
+    padding: 0px 10% 10px 10%;
+  }
+  
+  .menu_list {
+    margin-top: 20px;
+  }
+
+  .wrap_menuList_button_text {
+    font-size: 14px;
+  }
+
+  #logo_menu_arca {
+    width: 65%;
+  }
 }
 /*_______NO MOBILE LG_______ */
 /* @media (max-width: 1500px) and (min-width: 1350px) {
