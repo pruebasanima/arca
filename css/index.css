@@ -7,6 +7,10 @@
   display: none;
 }
 
+.main-content p {
+  margin-bottom: 9px;
+}
+
 /*----SIDEBAR MENU LEFT-----*/
 .div_menu_logo {
   text-align: center;
@@ -110,7 +114,25 @@
   font-size: 0.9vw;
 }
 
-.first_img_text button {
+.second_img_text{
+  position: absolute;
+  text-align: right;
+  top: 10%;
+  letter-spacing: 0px;
+  padding: 0px 41.7vw 0px 19vw;
+  font-size: 0.9vw;
+}
+
+.third_img_text{
+  position: absolute;
+  text-align: right;
+  top: 10%;
+  letter-spacing: 0px;
+  padding: 0px 47.7vw 0px 23vw;
+  font-size: 0.9vw;
+}
+
+/* .first_img_text button {
   background-color: #8B0058;
   color: white;
   border: 0px;
@@ -119,7 +141,7 @@
   margin-top: 20px;
   margin: 5px 0px;
   font-size: 1vw;
-}
+} */
 
 .area_hover_front_house:hover {
 	opacity: 0.5;
@@ -182,10 +204,10 @@
 /*-------fifth section-------*/
 .wrap_fifth_section {
   text-align: center;
-  background-image: url("../img/Logo_simple.png");
+  /* background-image: url("../img/Logo_simple.png"); */
   background-position: center;
   background-repeat: no-repeat;
-  padding: 150px 0px;
+  padding: 6% 10% 12% 10%;
 }
 
 .title_fifth_section {
@@ -206,7 +228,6 @@
 
 .textSVG {
   font-size: 36px;
-  color: #000;
 }
 /*_________________________END SECTIONS________________________*/
 
@@ -249,17 +270,6 @@
 /* ------- \ MODAL-------- */
 
 /*----MEDIA QUERYS----*/
-@media (min-width: 1250px) {
-  .div_nav {
-    flex: 0 0 15.667%;
-    max-width: 15.667%;
-  }
-
-  .main-content {
-    margin-left: 14.8%;
-  }
-}
-
 @media (min-width: 1900px) {
   .div_nav {
     flex: 0 0 10.667%;
@@ -271,21 +281,157 @@
   }
 }
 
-@media (max-width: 1300px) {
-  .first_img_text {
-    font-size: 12px;
-    padding: 0px 34% 0px 48%;
-    line-height: 16px;
-    top: 14%;
+/*_______NO MOBILE SM_______ */
+@media (max-width: 1149px) and (min-width: 950px) {
+  .div_nav {
+    flex: 0 0 17.667%;
+    max-width: 17.667%;
   }
 
-  .first_img_text button {
-    background-color: #8B0058;
-    color: white;
-    border: 0px;
-    border-radius: 15px;
-    padding: 1px 10px;
-    margin-top: 20px;
-    margin: 5px 0px;
+  .main-content {
+    margin-left: 13%;
+    margin-right: 1%;
+    text-align: center
+  }
+
+  #right-sidebar {
+    left: auto;
+    flex: 0 0 10.333%;
+    max-width: 10.333%;
+  }
+  
+  .first_img_text {
+    position: absolute;
+    text-align: right;
+    top: 23%;
+    letter-spacing: 0px;
+    padding: 0px 29.3vw 0px 40vw;
+    font-size: 0.9vw;
+  }
+
+  .second_img_text {
+    position: absolute;
+    text-align: right;
+    top: 15%;
+    letter-spacing: 0px;
+    padding: 0px 44.3vw 0px 20vw;
+    font-size: 0.9vw;
+  }
+
+  .third_img_text{
+    position: absolute;
+    text-align: right;
+    top: 22%;
+    letter-spacing: 0px;
+    padding: 0px 50.7vw 0px 24vw;
+    font-size: 0.9vw;
+    line-height: 10px;
+  }
+  
+  .textSVG {
+    font-size: 4vw;
+  }
+
+}
+
+/*_______NO MOBILE MD_______ */
+@media (max-width: 1500px) and (min-width: 1150px) {
+  .div_nav {
+    flex: 0 0 14.667%;
+    max-width: 14.667%;
+  }
+
+  .main-content {
+    margin-left: 11%;
+    margin-right: 2%;
+    text-align: center
+  }
+
+  #right-sidebar {
+    left: auto;
+    flex: 0 0 10.333%;
+    max-width: 10.333%;
+  }
+  
+  .first_img_text {
+    position: absolute;
+    text-align: right;
+    top: 19%;
+    letter-spacing: 0px;
+    padding: 0px 29.7vw 0px 42vw;
+    font-size: 1vw;
+  }
+
+  .second_img_text {
+    position: absolute;
+    text-align: right;
+    top: 10%;
+    letter-spacing: 0px;
+    padding: 0px 45vw 0px 19vw;
+    font-size: 1vw;
+  }
+
+  .third_img_text{
+    position: absolute;
+    text-align: right;
+    top: 12%;
+    letter-spacing: 0px;
+    padding: 0px 51vw 0px 24vw;
+    font-size: 1vw;
+  }
+  
+  .textSVG {
+    font-size: 4vw;
   }
 }
+/*_______NO MOBILE LG_______ */
+/* @media (max-width: 1500px) and (min-width: 1350px) {
+  .div_nav {
+    flex: 0 0 14.667%;
+    max-width: 14.667%;
+  }
+
+  .main-content {
+    margin-left: 11%;
+    margin-right: 2%;
+    text-align: center
+  }
+
+  #right-sidebar {
+    left: auto;
+    flex: 0 0 10.333%;
+    max-width: 10.333%;
+  }
+  
+  .first_img_text {
+    position: absolute;
+    text-align: right;
+    top: 19%;
+    letter-spacing: 0px;
+    padding: 0px 29.7vw 0px 42vw;
+    font-size: 1vw;
+  }
+
+  .second_img_text {
+    position: absolute;
+    text-align: right;
+    top: 10%;
+    letter-spacing: 0px;
+    padding: 0px 45vw 0px 19vw;
+    font-size: 1vw;
+  }
+
+  .third_img_text{
+    position: absolute;
+    text-align: right;
+    top: 12%;
+    letter-spacing: 0px;
+    padding: 0px 51vw 0px 24vw;
+    font-size: 1vw;
+  }
+  
+  .textSVG {
+    font-size: 4vw;
+  }
+
+} */
