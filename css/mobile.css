@@ -136,6 +136,10 @@
     color: white;
     padding: 12px;
   }
+
+  .wrapper_fifth_zone img{
+    width: 100%;
+  }
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
