@@ -13,7 +13,8 @@
   <!-- Custom styles for this template -->
   <link href="css/index.css" rel="stylesheet">
   <link href="css/portada.css" rel="stylesheet">
-
+  <link href="css/mobile.css" rel="stylesheet">
+  <link href="./fontawesome-free-5.10.1-web/css/all.css" rel="stylesheet">
 </head>
 <body>
   <!-- PORTADA -->
@@ -32,7 +33,7 @@
     </div>
   </div>
   <!-- \ PORTADA -->
-  <div class="container_index container-fluid ocultar">
+  <div class="container_index container-fluid d-none">
     <div class="row h-100">
       <!-- NAV LEFT -->
       <div class="col-2 h-100 p-3 fixed-top div_nav">
@@ -8235,6 +8236,104 @@
     </div>
     <!-- FINAL MAIN CONTENT -->
   </div>
+
+  <!-- MOBILE CONTENT -->  
+  <div class="container_mobile d-none d-md-none">
+    <div class="wrapper">
+      <!-- NAVBAR LEFT -->
+      <div id="mySidenav" class="sidenav rounded">
+        <i class="fas fa-times btn_closeNav"></i>
+        <div>
+          <a href="#">La casa</a>
+          <a href="#">Usuarios</a>
+          <a href="#">Voluntarios</a>
+          <a href="#">Objetivos</a>
+          <a href="#">El Arca</a>
+          <hr>
+          <p class="textNav">Proyecto de hogar de personas con discapacidad intelectual.</p>
+          <hr>
+        </div>        
+      </div>
+      <!-- \ NAVBAR LEFT -->
+      <!-- CONTENT -->
+      <div class="content"> 
+        <!-- NAVTOP -->      
+        <nav class="navbar navbarTop">        
+          <button type="button" class="btn btn_openNav bg-transparent">
+            <i class="fa fa-align-justify text-white"></i>
+          </button>
+          <button class="btn_colabora_mbl">COLABORA</button>
+        </nav>
+        <!-- \ NAVTOP -->
+        <!-- RECAUDACIÓN -->
+        <div class="wrapper_flag_recaudacion">
+          RECAUDACIÓN
+        </div>
+        <div class="wrapper_img_recaudacion d-none">
+          <img src="./img/barra.png" alt="">
+        </div>
+        <!-- \ RECAUDACIÓN -->
+        <div class="wrapper_first_zone p-3">
+          <img src="./img/mobile_img/h1_mbl.png" class="img_first_zone" alt="">
+          <div class="wrapper_text_first_zone shadow p-3 mb-2 bg-white">
+              <span> <img src="./img/mobile_img/1.png" alt="">En ocasiones las personas adultas con discapacidad intelectual no tienen una opción de vivienda que facilite su autonomía e integración social. La Casa nace para dar respuesta a esta situación.</span>
+          </div>
+          <div class="wrapper_text_first_zone shadow p-3 mb-2 bg-white">
+              <span> <img src="./img/mobile_img/2.png" alt="">La Casa es un hogar para sus habitantes: un espacio para el desarrollo pleno e integral de cada uno, en familia. Queremos que cada habitante se sienta plenamente identificado con la casa y la sienta como propia. Es un espacio para vivir, compartir, aprender, trabajar y crecer en comunidad.</span>
+          </div> 
+          <div class="wrapper_text_first_zone shadow p-3 mb-2 bg-white">
+              <span> <img src="./img/mobile_img/3.png" alt="">La Casa es un espacio para el desarrollo de talentos. Cada persona tiene un valor que aportar. Para ello, se desarrollarán las habilidades y talentos para poder transformarlos en una actividad productiva, tanto para los habitantes como para la comunidad de vecinos. Así, redescubriremos el valor de la vida comunitaria.</span>
+          </div> 
+          <div class="wrapper_text_first_zone shadow p-3 mb-2 bg-white">
+              <span> <img src="./img/mobile_img/4.png" alt="">La Casa es un espacio de transformación: para los habitantes de la misma y para los que se acercan a ella. Las personas con discapacidad son maestros de vida, y su integración activa en la comunidad beneficia a todas las partes. </span>
+          </div>         
+        </div>
+        <div class="wrapper_second_zone position-relative">
+          <img src="./img/Objetivos.png" class="img_zone" alt="">      
+          <div class="wrapper_text_zone shadow p-3 bg-white rounded">
+              <span>Estamos recaudando los fondos de dos maneras distintas. Te contamos las diferencias:
+                  Para el desarrollo del proyecto necesitamos 120.000€.                  
+                  80.000€ para realizar la reforma.
+                  20.000€ para amueblar la Casa.
+              </span>
+          </div>        
+        </div>
+        <div class="wrapper_third_zone position-relative">
+          <img src="./img/Voluntarios.png" class="img_zone" alt="">      
+          <div class="wrapper_text_zone shadow p-3 bg-white rounded">
+              <span>Estamos recaudando los fondos de dos maneras distintas. Te contamos las diferencias:
+                  Para el desarrollo del proyecto necesitamos 120.000€.                    
+                  80.000€ para realizar la reforma.
+                  20.000€ para amueblar la Casa.
+              </span>
+          </div>        
+        </div>
+        <div class="wrapper_fourth_zone position-relative">
+          <img src="./img/Principios.png" class="img_zone" alt="">      
+          <div class="wrapper_text_zone shadow p-3 bg-white rounded">
+              <span>Estamos recaudando los fondos de dos maneras distintas. Te contamos las diferencias:    
+                  Para el desarrollo del proyecto necesitamos 120.000€.                      
+                  80.000€ para realizar la reforma.
+                  20.000€ para amueblar la Casa.
+              </span>
+          </div>        
+        </div>
+        <div class="wrapper_fifth_zone position-relative">
+            <img src="./img/foto.png" class="img_zone" alt="">      
+            <div class="wrapper_text_zone row">
+                <p>
+                  Estamos recaudando los fondos de dos maneras distintas. Te contamos las diferencias:    
+                  Para el desarrollo del proyecto necesitamos 120.000€.                      
+                  80.000€ para realizar la reforma.
+                  20.000€ para amueblar la Casa.
+                </p>
+            </div>        
+        </div>
+      </div>
+      <!-- \ CONTENT -->
+    </div>
+  </div>
+  <!-- \ MOBILE CONTENT -->
   <!-- MODAL VIDEO -->
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
@@ -8257,6 +8356,10 @@
   <script src="js/scroll_toAnchor_animation.js"></script>
   <script src="js/toggle_menu.js"></script>
   <script src="js/interactive_svg.js"></script>
+  <script src="js/recaudacion_flag.js"></script>
+
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 </body>
 
 </html>

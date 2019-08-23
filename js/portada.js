@@ -9,7 +9,8 @@ $(document).ready(function() {
 
 	//redirection to index when press button "empezar"
 	$( ".btn_empezar").click(function() {
-		$( ".container_index").removeClass("ocultar");
+		$( ".container_index").addClass("d-lg-block");
 		$( ".container_portada").addClass("ocultar");
+		$( ".container_mobile").removeClass("d-none");
 	});
 });
