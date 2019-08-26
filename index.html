@@ -15,6 +15,7 @@
   <link href="css/portada.css" rel="stylesheet">
   <link href="css/mobile.css" rel="stylesheet">
   <link href="./fontawesome-free-5.10.1-web/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
   <!-- PORTADA -->
@@ -33,6 +34,7 @@
     </div>
   </div>
   <!-- \ PORTADA -->
+
   <div class="container_index container-fluid d-none">
     <div class="row h-100">
       <!-- NAV LEFT -->
@@ -8215,9 +8217,9 @@
       </div>
       <!-- \ MAIN CONTENT -->
 
-      <!-- PERCENTAGE IMAGE -->
+      <!-- PERCENTAGE IMAGE AND FOOTER -->
       <div class="col-1 h-100 fixed-top" id="right-sidebar">
-          <img src="img/barra.png" class="thermometer_img" alt="porcentaje donaciones">
+          <img src="img/progreso.png" class="thermometer_img" alt="porcentaje donaciones">
           <!-- FOOTER  -->
           <footer class="footer">
               <ul class="footer_text">
@@ -8233,22 +8235,23 @@
               </ul>
           </footer>
       </div>
+      <!-- \ PERCENTAGE IMAGE AND FOOTER -->
     </div>
     <!-- FINAL MAIN CONTENT -->
   </div>
 
   <!-- MOBILE CONTENT -->  
-  <div class="container_mobile d-none d-md-none">
+  <div class="container_mobile d-none d-lg-none">
     <div class="wrapper">
       <!-- NAVBAR LEFT -->
       <div id="mySidenav" class="sidenav rounded">
         <i class="fas fa-times btn_closeNav"></i>
         <div>
-          <a href="#">La casa</a>
-          <a href="#">Usuarios</a>
-          <a href="#">Voluntarios</a>
-          <a href="#">Objetivos</a>
-          <a href="#">El Arca</a>
+          <a href="#first_zone">La casa</a>
+          <a href="#second_zone">Usuarios</a>
+          <a href="#third_zone">Voluntarios</a>
+          <a href="#fourth_zone">Objetivos</a>
+          <a href="#fifth_zone">El Arca</a>
           <hr>
           <p class="textNav">Proyecto de hogar de personas con discapacidad intelectual.</p>
           <hr>
@@ -8256,6 +8259,7 @@
       </div>
       <!-- \ NAVBAR LEFT -->
       <!-- CONTENT -->
+      <div class="w3-overlay w3-animate-opacity" style="cursor:pointer" id="myOverlay"></div>
       <div class="content"> 
         <!-- NAVTOP -->      
         <nav class="navbar navbarTop">        
@@ -8270,10 +8274,10 @@
           RECAUDACIÓN
         </div>
         <div class="wrapper_img_recaudacion d-none">
-          <img src="./img/barra.png" alt="">
+          <img src="./img/progreso.png" alt="">
         </div>
         <!-- \ RECAUDACIÓN -->
-        <div class="wrapper_first_zone p-3">
+        <div id="first_zone" class="wrapper_first_zone p-3">
           <img src="./img/mobile_img/h1_mbl.png" class="img_first_zone" alt="">
           <div class="wrapper_text_first_zone shadow p-3 mb-2 bg-white">
               <span> <img src="./img/mobile_img/1.png" alt="">En ocasiones las personas adultas con discapacidad intelectual no tienen una opción de vivienda que facilite su autonomía e integración social. La Casa nace para dar respuesta a esta situación.</span>
@@ -8288,7 +8292,7 @@
               <span> <img src="./img/mobile_img/4.png" alt="">La Casa es un espacio de transformación: para los habitantes de la misma y para los que se acercan a ella. Las personas con discapacidad son maestros de vida, y su integración activa en la comunidad beneficia a todas las partes. </span>
           </div>         
         </div>
-        <div class="wrapper_second_zone position-relative">
+        <div id="second_zone" class="wrapper_second_zone position-relative">
           <img src="./img/Objetivos.png" class="img_zone" alt="">      
           <div class="wrapper_text_zone shadow p-3 bg-white rounded">
               <span>Estamos recaudando los fondos de dos maneras distintas. Te contamos las diferencias:
@@ -8298,7 +8302,7 @@
               </span>
           </div>        
         </div>
-        <div class="wrapper_third_zone position-relative">
+        <div id="third_zone" class="wrapper_third_zone position-relative">
           <img src="./img/Voluntarios.png" class="img_zone" alt="">      
           <div class="wrapper_text_zone shadow p-3 bg-white rounded">
               <span>Estamos recaudando los fondos de dos maneras distintas. Te contamos las diferencias:
@@ -8308,7 +8312,7 @@
               </span>
           </div>        
         </div>
-        <div class="wrapper_fourth_zone position-relative">
+        <div id="fourth_zone" class="wrapper_fourth_zone position-relative">
           <img src="./img/Principios.png" class="img_zone" alt="">      
           <div class="wrapper_text_zone shadow p-3 bg-white rounded">
               <span>Estamos recaudando los fondos de dos maneras distintas. Te contamos las diferencias:    
@@ -8318,7 +8322,7 @@
               </span>
           </div>        
         </div>
-        <div class="wrapper_fifth_zone position-relative">
+        <div id="fifth_zone" class="wrapper_fifth_zone position-relative">
             <img src="./img/foto.png" class="img_zone" alt="">      
             <div class="wrapper_text_zone row">
                 <p>
@@ -8332,6 +8336,35 @@
       </div>
       <!-- \ CONTENT -->
     </div>
+    <footer class="footer_mbl">
+        <div class="row">
+          <div class="col-12 d-sm-none">
+            <ul class="footer_mblxs_text">
+              <li class="li_mblxs col-12"><a href="">El Arca</a></li>
+              <li class="li_mblxs col-12"><a href="">Faqs</a></li>
+              <li class="li_mblxs col-12"><a href="">Aviso legal</a></li>
+              <li class="li_mblxs col-12"><a href="" class="mr-3">Política de privacidad</a></li>
+              <li class="li_mblxs col-12"><a href="">
+                <img class="icon_footer" src="img/twitter_icon.png" alt="icono de twitter">
+                <img class="icon_footer" src="img/fb_icon.png" alt="icono de facebook">
+              </a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-12 d-none d-sm-block">
+            <ul class="footer_mbl_text">
+              <li><a href="">El Arca</a></li>
+              <li class="separator_footer">|</li>
+              <li><a href="">Faqs</a></li>
+              <li class="separator_footer">|</li>
+              <li><a href="">Aviso legal</a></li>
+              <li class="separator_footer">|</li>
+              <li><a href="" class="mr-3">Política de privacidad</a></li>
+              <li><a href=""><img class="icon_footer" src="img/twitter_icon.png" alt="icono de twitter"></a></li>
+              <li><a href=""><img class="icon_footer" src="img/fb_icon.png" alt="icono de facebook"></a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
   </div>
   <!-- \ MOBILE CONTENT -->
   <!-- MODAL VIDEO -->

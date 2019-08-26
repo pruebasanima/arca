@@ -3,8 +3,12 @@
   }
 /* -----NAVBAR TOP------- */
 .navbarTop {
-    background-color: #004a74;
-    box-shadow: 0px -5px 25px black;
+  background-color: #004a74;
+  box-shadow: 0px -5px 25px black;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .btn_colabora_mbl {
@@ -58,7 +62,7 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     background-color: #e2e6e9;
@@ -108,12 +112,12 @@
   }
 
   .wrapper_text_first_zone img{
-    width: 6%;
+    width: 25px;
     margin-right: 5px;
     margin-bottom: 5px;
   }
 
-  /* ------SECOND ZONE------ */
+  /* ------OTHERS ZONE------ */
   .wrapper_second_zone, .wrapper_third_zone, .wrapper_fourth_zone {
     margin-top: 10px;
     background-color: #000000;
@@ -144,4 +148,51 @@
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  /* ----------FOOTER----------- */
+  .footer_mbl{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0C4C76;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer_mbl_text {
+    display: inline-flex;
+    list-style: none;
+    margin: 5px 0px;
+    padding-right: 0px;
+  }
+  
+  .footer_mbl_text a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .separator_footer{
+    margin: 0px 12px;
+  }
+  
+  .icon_footer {
+    width: 20px;
+    margin: 0px 2px;
+  }
+
+  /* XS */
+  .footer_mblxs_text {
+    padding: 0px;
+    margin: 10px 0px;
+    list-style: none;
+  }
+  
+  .footer_mblxs_text a {    
+    text-decoration: none;
+    color: white;
+  }
+
+  .li_mblxs {
+    margin: 5px 0px;
   }
