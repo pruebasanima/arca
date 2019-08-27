@@ -49,7 +49,9 @@
               <a href="#fifth-room_anchor" class="list-group-item"><span class="menu_numbers">5</span>El arca</a>
             </nav>
             <nav class="wrap_button_text">
+            <form action="./colabora.php" method="post">
               <button class="btn btn_colabora animated pulse faster">COLABORA</button>
+            </form>
               <button type="button" class="btn btn-primary d-none" data-toggle="modal" data-target="#exampleModalCenter">
                 Launch demo modal
               </button>
